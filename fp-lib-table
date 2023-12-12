@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "minimouse")(type "KiCad")(uri "${KIPRJMOD}/minimouse.pretty")(options "")(descr ""))
+  (lib (name "TP-1CAO")(type "KiCad")(uri "O:/TP-1CAO.pretty")(options "")(descr ""))
 )
