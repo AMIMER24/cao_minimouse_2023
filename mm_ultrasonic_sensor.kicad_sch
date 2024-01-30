@@ -5,6 +5,57 @@
   (paper "A4")
 
   (lib_symbols
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -266,7 +317,7 @@
     (pin "2" (uuid 6efbd2ca-8d6f-4d38-8d34-b2e841290603))
     (pin "3" (uuid 1c6491b7-e975-42aa-93f3-836e5acd9739))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "U4") (unit 1)
         )
@@ -277,7 +328,7 @@
   (symbol (lib_id "power:+BATT") (at 133.35 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24f29d78-801a-4432-a225-b497e4b4aa3d)
-    (property "Reference" "#PWR028" (at 133.35 83.82 0)
+    (property "Reference" "#PWR034" (at 133.35 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 133.35 74.93 0)
@@ -291,9 +342,35 @@
     )
     (pin "1" (uuid 2942f686-ebac-4eeb-8345-9ad8bd7075fb))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 173.99 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 446cd82f-4f42-4b22-8c72-2d4e8ed3b0d5)
+    (property "Reference" "C15" (at 177.8 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2uF" (at 177.8 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.9552 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3dd7c708-bf72-4026-a31a-18e504342367))
+    (pin "2" (uuid 4df63ac9-c5e0-457f-89d3-7643a83d6dcd))
+    (instances
+      (project "tp2"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -302,7 +379,7 @@
   (symbol (lib_id "power:GND") (at 133.35 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 596a7d11-a87d-4b0e-9fd0-539313d276b0)
-    (property "Reference" "#PWR029" (at 133.35 106.68 0)
+    (property "Reference" "#PWR035" (at 133.35 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 105.41 0)
@@ -316,9 +393,34 @@
     )
     (pin "1" (uuid 20210db9-611f-4448-b3c6-c4466bcc805b))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR035") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 173.99 83.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid af5b2d8a-b92c-4b5c-97e7-9abfccbc805b)
+    (property "Reference" "#PWR037" (at 173.99 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 173.99 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.99 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.99 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d7cf49ca-338d-4e78-b8ad-b89caea0bbc4))
+    (instances
+      (project "tp2"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -327,13 +429,13 @@
   (symbol (lib_id "Device:R") (at 116.84 91.44 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56d1ec9-b4bb-4a40-9768-86567da8cb47)
-    (property "Reference" "Rx" (at 116.84 95.25 90)
+    (property "Reference" "Rx?" (at 116.84 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100 Ohms" (at 118.11 97.79 90)
+    (property "Value" "100 " (at 118.11 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 116.84 89.662 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 89.662 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 91.44 0)
@@ -342,12 +444,37 @@
     (pin "2" (uuid a3263a03-20ee-4542-9ef4-02e17235f15e))
     (pin "1" (uuid 8ee5c959-3627-4e2c-a496-5dc1b6f8a5e6))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/d17bb1c7-f68a-465e-9a17-5858ef86fc30"
-          (reference "Rx") (unit 1)
+          (reference "Rx?") (unit 1)
         )
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
-          (reference "R10") (unit 1)
+          (reference "R22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 173.99 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fd4fb899-56f0-4a4c-a7e5-9e9e94be878b)
+    (property "Reference" "#PWR036" (at 173.99 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 173.99 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.99 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.99 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e262d390-6a47-4ae3-be29-f9b7bb241011))
+    (instances
+      (project "tp2"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
+          (reference "#PWR036") (unit 1)
         )
       )
     )

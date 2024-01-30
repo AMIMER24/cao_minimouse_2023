@@ -1,0 +1,65 @@
+Info: Traitement du symbole "BOOT1:TestPoint:TestPoint_Pad_D1.5mm".
+Info: Traitement du symbole "C1:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "U1:Package_TO_SOT_SMD:SOT-23-5".
+Info: Traitement du symbole "C2:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "U2:Package_QFP:LQFP-48_7x7mm_P0.5mm".
+Info: Traitement du symbole "C3:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C4:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C5:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C6:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C7:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C8:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C9:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "U3:Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm".
+Info: Traitement du symbole "C10:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C11:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C12:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C13:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C14:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "C15:Capacitor_SMD:C_0603_1608Metric".
+Info: Traitement du symbole "D1:LED_SMD:LED_0603_1608Metric".
+Info: Traitement du symbole "J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical".
+Info: Traitement du symbole "J2:Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical".
+Info: Traitement du symbole "J3:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical".
+Info: Traitement du symbole "J4:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical".
+Info: Traitement du symbole "J5:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical".
+Info: Traitement du symbole "M1:minimouse:N20_with_encoder".
+Info: Traitement du symbole "M2:minimouse:N20_with_encoder".
+Info: Traitement du symbole "R1:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "U4:minimouse:HC-SR04".
+Info: Traitement du symbole "R2:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R3:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R4:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R5:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R6:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R7:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R8:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R9:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R10:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R11:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R12:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R13:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R14:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R15:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R16:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R17:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R18:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R19:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R20:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R21:Resistor_SMD:R_0603_1608Metric".
+Info: Traitement du symbole "R22:Resistor_SMD:R_0603_1608Metric".
+Modifie valeur C1 de 22 uF en 2.2 uF.
+Modifie valeur C2 de 22 uF en 2.2 uF.
+Modifie valeur C9 de 10 uF en 1 nF.
+Modifie valeur R1 de 180 Ohms en 330.
+Modifie valeur R12 de 10 KOhms en 10 K.
+Modifie valeur R15 de 330 mOhms en 330 m.
+Modifie valeur R11 de 10 KOhms en 10 K.
+Modifie valeur R22 de 100 Ohms en 100 .
+Modifie valeur R16 de 330 mOhms en 330 m.
+Modifie valeur R13 de 1 KOhms en 1 K.
+Modifie valeur R10 de 10 KOhms en 10 K.
+Modifie valeur R14 de 47 KHoms en 47 K.
+
+
+Info: Total warnings: 0, erreurs: 0.

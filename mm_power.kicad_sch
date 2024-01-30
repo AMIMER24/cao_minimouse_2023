@@ -482,8 +482,17 @@
   (junction (at 86.36 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 07bc35ca-8fab-4f6b-961a-30c37f6f6b6b)
   )
+  (junction (at 151.13 100.33) (diameter 0) (color 0 0 0 0)
+    (uuid 59ea8d28-d9f0-46aa-829f-349f583032a7)
+  )
   (junction (at 177.8 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 5a4ffd0d-2db7-409f-90a6-e59c3fcfaf7c)
+  )
+  (junction (at 165.1 100.33) (diameter 0) (color 0 0 0 0)
+    (uuid 7e1cc925-855d-443b-a447-1143019732ac)
+  )
+  (junction (at 177.8 100.33) (diameter 0) (color 0 0 0 0)
+    (uuid 84f790d9-d7fd-481c-bddb-6b7e6ac17269)
   )
   (junction (at 86.36 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 86ba3f16-0beb-43ad-a456-3abca0e8d0b7)
@@ -495,9 +504,13 @@
     (uuid a591c2be-d3de-4b42-9129-dfc3128d68f9)
   )
 
-  (wire (pts (xy 151.13 85.09) (xy 151.13 91.44))
+  (wire (pts (xy 151.13 85.09) (xy 151.13 100.33))
     (stroke (width 0) (type default))
     (uuid 0119d7da-221b-4a5e-ae7a-80c8fb031d5c)
+  )
+  (wire (pts (xy 165.1 86.36) (xy 165.1 100.33))
+    (stroke (width 0) (type default))
+    (uuid 096327c1-0b50-401a-abcb-07e1fc6d797e)
   )
   (wire (pts (xy 137.16 77.47) (xy 137.16 74.93))
     (stroke (width 0) (type default))
@@ -511,6 +524,10 @@
     (stroke (width 0) (type default))
     (uuid 11450438-daba-42de-bb93-340ccf7f0e78)
   )
+  (wire (pts (xy 165.1 100.33) (xy 177.8 100.33))
+    (stroke (width 0) (type default))
+    (uuid 122fc195-e6cd-419d-b43d-b2134c2d423c)
+  )
   (wire (pts (xy 86.36 74.93) (xy 86.36 82.55))
     (stroke (width 0) (type default))
     (uuid 34e5f2f6-0bf7-4fae-babb-d10dd80938c4)
@@ -523,9 +540,17 @@
     (stroke (width 0) (type default))
     (uuid 369e93ba-f682-40a9-86c6-dd1b50a31a1e)
   )
+  (wire (pts (xy 137.16 85.09) (xy 137.16 100.33))
+    (stroke (width 0) (type default))
+    (uuid 3d1c3020-5acb-4799-91de-50021b4b7dc9)
+  )
   (wire (pts (xy 143.51 77.47) (xy 137.16 77.47))
     (stroke (width 0) (type default))
     (uuid 43f3d7dd-e631-414e-bda3-3b47d52a3ca9)
+  )
+  (wire (pts (xy 151.13 100.33) (xy 165.1 100.33))
+    (stroke (width 0) (type default))
+    (uuid 5c89d226-14fe-41d8-91dc-6d2eb0fc908a)
   )
   (wire (pts (xy 165.1 74.93) (xy 165.1 78.74))
     (stroke (width 0) (type default))
@@ -539,9 +564,17 @@
     (stroke (width 0) (type default))
     (uuid 7de2b244-2645-4a8d-b316-063cb6c09fe6)
   )
+  (wire (pts (xy 137.16 100.33) (xy 151.13 100.33))
+    (stroke (width 0) (type default))
+    (uuid 816532cd-05a6-45d0-b6c7-abe446d2651b)
+  )
   (wire (pts (xy 137.16 74.93) (xy 143.51 74.93))
     (stroke (width 0) (type default))
     (uuid 89a48de5-629a-4951-a4aa-83ff9bbddeed)
+  )
+  (wire (pts (xy 177.8 100.33) (xy 177.8 101.6))
+    (stroke (width 0) (type default))
+    (uuid 89c45d0d-c376-4bf0-8c0b-54996d201a9f)
   )
   (wire (pts (xy 177.8 83.82) (xy 177.8 74.93))
     (stroke (width 0) (type default))
@@ -563,7 +596,7 @@
     (stroke (width 0) (type default))
     (uuid b1f9618d-0ba9-484f-a245-6a755ea5edeb)
   )
-  (wire (pts (xy 177.8 99.06) (xy 177.8 101.6))
+  (wire (pts (xy 177.8 99.06) (xy 177.8 100.33))
     (stroke (width 0) (type default))
     (uuid b518eaea-c6a5-44f3-b35e-98f6e7482823)
   )
@@ -583,7 +616,7 @@
   (symbol (lib_id "power:+BATT") (at 86.36 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 118b5019-25e0-46ab-adcb-d166d3c57cf6)
-    (property "Reference" "#PWR036" (at 86.36 78.74 0)
+    (property "Reference" "#PWR01" (at 86.36 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 86.36 69.85 0)
@@ -597,9 +630,9 @@
     )
     (pin "1" (uuid 6acf5fca-f5ac-46e4-9456-5bf750f47a06))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -608,13 +641,13 @@
   (symbol (lib_id "Device:C") (at 165.1 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bd1118c-44fd-48d1-81a4-3d374bb869c3)
-    (property "Reference" "C8" (at 168.91 81.28 0)
+    (property "Reference" "C2" (at 168.91 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22 uF" (at 168.91 83.82 0)
+    (property "Value" "2.2 uF" (at 168.91 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 166.0652 86.36 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 166.0652 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 82.55 0)
@@ -623,9 +656,9 @@
     (pin "2" (uuid f940c83c-a3c7-47e0-87de-6b825824b30b))
     (pin "1" (uuid 11a7f0c8-8ad6-43c1-9e75-75f0645876af))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "C8") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -649,7 +682,7 @@
     (pin "" (uuid ff380b2b-89b2-4a4c-a707-4535dc4d79f1))
     (pin "" (uuid ff380b2b-89b2-4a4c-a707-4535dc4d79f2))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
           (reference "#V01") (unit 1)
         )
@@ -660,13 +693,13 @@
   (symbol (lib_id "Device:C") (at 137.16 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a924e83-a5e6-4bbf-a49c-19c633bf9c82)
-    (property "Reference" "C7" (at 140.97 80.01 0)
+    (property "Reference" "C1" (at 140.97 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22 uF" (at 140.97 82.55 0)
+    (property "Value" "2.2 uF" (at 140.97 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 138.1252 85.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 138.1252 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 81.28 0)
@@ -675,9 +708,9 @@
     (pin "2" (uuid 931c578a-621c-4a58-9a76-c1de1d2a9a2c))
     (pin "1" (uuid 1e8fa5a2-c1f7-4564-ab21-48116573679f))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -686,7 +719,7 @@
   (symbol (lib_id "Regulator_Linear:LP5907MFX-1.2") (at 151.13 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4189c827-8112-4809-9b6d-e03a7c748019)
-    (property "Reference" "U3" (at 151.13 67.31 0)
+    (property "Reference" "U1" (at 151.13 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LP5907MFX-1.2" (at 151.13 69.85 0)
@@ -704,34 +737,9 @@
     (pin "5" (uuid 77465ed1-4776-4dd1-a6d7-948d10e7978d))
     (pin "1" (uuid 0057b669-f6a5-4c53-a99d-e849b475ce0a))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 165.1 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63455ff0-37c1-4b09-920e-f2aed18c8047)
-    (property "Reference" "#PWR019" (at 165.1 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 165.1 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 91dfeeb5-dede-4470-9b05-d5632ed30acd))
-    (instances
-      (project "minimouse"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR019") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -746,7 +754,7 @@
     (property "Value" "LED" (at 181.61 90.4875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 177.8 87.63 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 177.8 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 87.63 0)
@@ -755,7 +763,7 @@
     (pin "2" (uuid 000cbe3c-7376-4aa0-a9b0-419ba747da5f))
     (pin "1" (uuid 4041c604-5cdf-4979-8748-f0f895e749f1))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
           (reference "D1") (unit 1)
         )
@@ -766,7 +774,7 @@
   (symbol (lib_id "power:+3.3V") (at 177.8 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 688272ee-7fff-4549-8f96-a4beda844937)
-    (property "Reference" "#PWR023" (at 177.8 71.12 0)
+    (property "Reference" "#PWR04" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 177.8 62.23 0)
@@ -780,9 +788,9 @@
     )
     (pin "1" (uuid cc414ca3-057f-40f4-88c1-be6b51fe7940))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -791,13 +799,13 @@
   (symbol (lib_id "Device:R") (at 177.8 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a9d2e9c-31ab-427e-9dca-101ef24d90fc)
-    (property "Reference" "R0" (at 180.34 93.98 0)
+    (property "Reference" "R1" (at 180.34 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "180 Ohms" (at 180.34 96.52 0)
+    (property "Value" "330" (at 180.34 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 176.022 95.25 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 176.022 95.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 95.25 0)
@@ -806,9 +814,9 @@
     (pin "1" (uuid 6f56fc2b-68a8-462b-a70e-93eac88a9cc6))
     (pin "2" (uuid c23a9d84-c6e5-48e4-be4b-38317544b1b7))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "R0") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -817,7 +825,7 @@
   (symbol (lib_id "power:GND") (at 177.8 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b851a25e-3abf-47e2-8183-fc82532fac2a)
-    (property "Reference" "#PWR030" (at 177.8 107.95 0)
+    (property "Reference" "#PWR05" (at 177.8 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 106.68 0)
@@ -831,34 +839,9 @@
     )
     (pin "1" (uuid 2f416475-6351-4892-98fb-5e9744ef9429))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 151.13 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d1f99808-4634-4493-b4de-19a3e2386946)
-    (property "Reference" "#PWR020" (at 151.13 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 151.13 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 151.13 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 151.13 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8d9044c-89bd-42bb-afb4-6ae7b347fc73))
-    (instances
-      (project "minimouse"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -867,7 +850,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 74.93 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7ef8a3c-58a5-49a4-b902-05d6afc49cd6)
-    (property "Reference" "J5" (at 74.93 81.28 0)
+    (property "Reference" "J1" (at 74.93 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 74.93 83.82 0)
@@ -882,34 +865,9 @@
     (pin "1" (uuid 404beac4-a046-49f3-91cd-5005d641ff0b))
     (pin "2" (uuid de924f1e-b136-471c-a757-d8b70f81cc46))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 137.16 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d9752175-70a2-4d8a-91b6-0a943db2deef)
-    (property "Reference" "#PWR021" (at 137.16 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 137.16 90.17 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 137.16 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.16 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ba19635c-ae51-4167-a3d8-565b1ecfbe9d))
-    (instances
-      (project "minimouse"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR021") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -918,7 +876,7 @@
   (symbol (lib_id "power:+BATT") (at 137.16 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3fc5382-e0ee-4370-8d11-7c0205ff5dd8)
-    (property "Reference" "#PWR022" (at 137.16 72.39 0)
+    (property "Reference" "#PWR03" (at 137.16 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 137.16 63.5 0)
@@ -932,9 +890,9 @@
     )
     (pin "1" (uuid 17f54ac1-e988-48f6-bfe1-51a079a2924b))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -943,7 +901,7 @@
   (symbol (lib_id "power:GND") (at 86.36 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5fbaf03-7074-4a5a-9f6c-74c0faaf06f8)
-    (property "Reference" "#PWR037" (at 86.36 107.95 0)
+    (property "Reference" "#PWR02" (at 86.36 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 106.68 0)
@@ -957,9 +915,9 @@
     )
     (pin "1" (uuid 426432f8-b13a-41bf-9e16-7b3249acf400))
     (instances
-      (project "minimouse"
+      (project "tp2"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3f9b0845-5778-418c-a7a8-03da2392145e"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
