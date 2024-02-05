@@ -317,7 +317,7 @@
     (pin "2" (uuid 6efbd2ca-8d6f-4d38-8d34-b2e841290603))
     (pin "3" (uuid 1c6491b7-e975-42aa-93f3-836e5acd9739))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "U4") (unit 1)
         )
@@ -342,7 +342,7 @@
     )
     (pin "1" (uuid 2942f686-ebac-4eeb-8345-9ad8bd7075fb))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR034") (unit 1)
         )
@@ -368,7 +368,7 @@
     (pin "1" (uuid 3dd7c708-bf72-4026-a31a-18e504342367))
     (pin "2" (uuid 4df63ac9-c5e0-457f-89d3-7643a83d6dcd))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "C15") (unit 1)
         )
@@ -393,7 +393,7 @@
     )
     (pin "1" (uuid 20210db9-611f-4448-b3c6-c4466bcc805b))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR035") (unit 1)
         )
@@ -418,7 +418,7 @@
     )
     (pin "1" (uuid d7cf49ca-338d-4e78-b8ad-b89caea0bbc4))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR037") (unit 1)
         )
@@ -426,16 +426,16 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 116.84 91.44 90) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R") (at 116.84 91.44 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56d1ec9-b4bb-4a40-9768-86567da8cb47)
-    (property "Reference" "Rx?" (at 116.84 95.25 90)
+    (property "Reference" "R22" (at 116.84 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100 " (at 118.11 97.79 90)
+    (property "Value" "100 " (at 115.57 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 89.662 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 93.218 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 91.44 0)
@@ -444,10 +444,7 @@
     (pin "2" (uuid a3263a03-20ee-4542-9ef4-02e17235f15e))
     (pin "1" (uuid 8ee5c959-3627-4e2c-a496-5dc1b6f8a5e6))
     (instances
-      (project "tp2"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/d17bb1c7-f68a-465e-9a17-5858ef86fc30"
-          (reference "Rx?") (unit 1)
-        )
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "R22") (unit 1)
         )
@@ -472,7 +469,7 @@
     )
     (pin "1" (uuid e262d390-6a47-4ae3-be29-f9b7bb241011))
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
           (reference "#PWR036") (unit 1)
         )

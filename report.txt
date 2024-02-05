@@ -1,0 +1,80 @@
+Mise à jour symbole '#PWR037' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'R1' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR06' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'C5' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#V01' de 'minimouse:SingleCellLiPo' à 'minimouse:SingleCellLiPo': OK
+Mise à jour symbole 'BOOT1' de 'Connector:TestPoint' à 'Connector:TestPoint': OK
+Mise à jour symbole 'R9' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'R4' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'C3' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole 'C1' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR036' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'U2' de 'MCU_ST_STM32F0:STM32F030C8Tx' à 'MCU_ST_STM32F0:STM32F030C8Tx': OK
+Mise à jour symbole 'J1' de 'Connector_Generic:Conn_01x02' à 'Connector_Generic:Conn_01x02': OK
+Mise à jour symbole '#PWR09' de 'power:+3.3V' à 'power:+3.3V': OK
+Mise à jour symbole 'D1' de 'Device:LED' à 'Device:LED': OK
+Mise à jour symbole '#PWR08' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR01' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'C15' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR02' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR04' de 'power:+3.3V' à 'power:+3.3V': OK
+Mise à jour symbole '#PWR033' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR05' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'J2' de 'Connector:Conn_ARM_JTAG_SWD_10' à 'Connector:Conn_ARM_JTAG_SWD_10': OK
+Mise à jour symbole 'R3' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR034' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'R7' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'C8' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR07' de 'power:+3.3V' à 'power:+3.3V': OK
+Mise à jour symbole 'C14' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole 'R8' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR010' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR03' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole '#PWR012' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'R21' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'C4' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR035' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR011' de 'power:+3.3V' à 'power:+3.3V': OK
+Mise à jour symbole 'U1' de 'Regulator_Linear:LP5907MFX-1.2' à 'Regulator_Linear:LP5907MFX-1.2': OK
+Mise à jour symbole 'J5' de 'Connector_Generic:Conn_01x04' à 'Connector_Generic:Conn_01x04': OK
+Mise à jour symbole 'C2' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole 'R22' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'R6' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'C7' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR032' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'R5' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR030' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'R2' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'C6' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR031' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'U4' de 'minimouse:HC-SR04' à 'minimouse:HC-SR04': OK
+Mise à jour symbole '#PWR013' de 'power:GND' à 'power:GND': OK
+Mise à jour symboles 'R18 R20' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR017' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symboles 'M1 M2' de 'minimouse:N20_w_encoder' à 'minimouse:N20_w_encoder': OK
+Mise à jour symbole 'C9' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole 'U3' de 'Driver_Motor:STSPIN240' à 'Driver_Motor:STSPIN240': OK
+Mise à jour symbole 'R16' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR019' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'C10' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole 'R15' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR018' de 'power:GND' à 'power:GND': OK
+Mise à jour symboles 'C12 C13' de 'Device:C' à 'Device:C': OK
+Mise à jour symboles 'J3 J4' de 'Connector_Generic:Conn_01x06' à 'Connector_Generic:Conn_01x06': OK
+Mise à jour symbole 'R10' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR020' de 'power:GND' à 'power:GND': OK
+Mise à jour symboles '#PWR024 #PWR028' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symboles '#PWR022 #PWR026' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symboles '#PWR023 #PWR027' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR021' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'C11' de 'Device:C' à 'Device:C': OK
+Mise à jour symbole '#PWR016' de 'power:GND' à 'power:GND': OK
+Mise à jour symboles 'R17 R19' de 'Device:R' à 'Device:R': OK
+Mise à jour symboles '#PWR025 #PWR029' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole '#PWR014' de 'power:+BATT' à 'power:+BATT': OK
+Mise à jour symbole 'R14' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'R11' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'R13' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole 'R12' de 'Device:R' à 'Device:R': OK
+Mise à jour symbole '#PWR015' de 'power:GND' à 'power:GND': OK
+Mise à jour symbole 'BOOT2' de 'Connector:TestPoint' à 'Connector:TestPoint': OK

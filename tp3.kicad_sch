@@ -32,7 +32,7 @@
     (stroke (width 0) (type default))
     (uuid 2385753a-9734-4b35-8261-eecb92c68b86)
   )
-  (wire (pts (xy 204.47 72.39) (xy 204.47 54.61))
+  (wire (pts (xy 204.47 72.39) (xy 204.47 53.34))
     (stroke (width 0) (type default))
     (uuid 250b92e7-9402-4154-a7be-3d6ebccccdc7)
   )
@@ -48,11 +48,11 @@
     (stroke (width 0) (type default))
     (uuid 38501c0f-2298-4c08-8618-b8a92aa860e6)
   )
-  (wire (pts (xy 157.48 46.99) (xy 157.48 59.69))
+  (wire (pts (xy 157.48 45.72) (xy 157.48 59.69))
     (stroke (width 0) (type default))
     (uuid 40f2cda0-6d54-4d0b-a451-c4c3ce323a9b)
   )
-  (wire (pts (xy 204.47 54.61) (xy 214.63 54.61))
+  (wire (pts (xy 204.47 53.34) (xy 214.63 53.34))
     (stroke (width 0) (type default))
     (uuid 4540fc2e-dc5f-4d31-988b-7fcb494c42fa)
   )
@@ -68,11 +68,11 @@
     (stroke (width 0) (type default))
     (uuid 926e6b15-a292-4f71-acab-3a0057de4fc4)
   )
-  (wire (pts (xy 214.63 46.99) (xy 157.48 46.99))
+  (wire (pts (xy 214.63 45.72) (xy 157.48 45.72))
     (stroke (width 0) (type default))
     (uuid 93c788cc-a89d-40df-ab9a-3f2aafdb4c4c)
   )
-  (wire (pts (xy 207.01 57.15) (xy 214.63 57.15))
+  (wire (pts (xy 207.01 55.88) (xy 214.63 55.88))
     (stroke (width 0) (type default))
     (uuid 9e9932a3-ef67-4132-be71-e3e7f7449c77)
   )
@@ -112,7 +112,7 @@
     (stroke (width 0) (type default))
     (uuid cff7d45c-a6cf-455e-9cbc-5321677081bb)
   )
-  (wire (pts (xy 154.94 57.15) (xy 154.94 44.45))
+  (wire (pts (xy 154.94 57.15) (xy 154.94 43.18))
     (stroke (width 0) (type default))
     (uuid d8cdd676-4c55-4d33-b5fa-949478f2d994)
   )
@@ -120,7 +120,7 @@
     (stroke (width 0) (type default))
     (uuid dbe46987-1494-4c48-8e70-ca3d795ae9bf)
   )
-  (wire (pts (xy 207.01 74.93) (xy 207.01 57.15))
+  (wire (pts (xy 207.01 74.93) (xy 207.01 55.88))
     (stroke (width 0) (type default))
     (uuid eb5ad2a1-242f-467c-97d9-4f560b084a05)
   )
@@ -128,7 +128,7 @@
     (stroke (width 0) (type default))
     (uuid ed83be04-ee18-4a35-b5ee-9fb4544173a5)
   )
-  (wire (pts (xy 154.94 44.45) (xy 214.63 44.45))
+  (wire (pts (xy 154.94 43.18) (xy 214.63 43.18))
     (stroke (width 0) (type default))
     (uuid f83a4dd8-5439-4d40-8bdc-36c38649bdc8)
   )
@@ -188,7 +188,7 @@
       (uuid 09287ef8-aa58-4b96-9e82-6cc14e686e9f)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "4"))
       )
     )
@@ -213,7 +213,7 @@
       (uuid 74e3968a-edcb-47f3-a327-1fe0af99b3ac)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "8"))
       )
     )
@@ -246,7 +246,7 @@
       (uuid 6a26aa62-3d53-4c12-bf8e-c30fbe00f8d2)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "6"))
       )
     )
@@ -263,40 +263,40 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "2"))
       )
     )
   )
 
-  (sheet (at 214.63 41.91) (size 29.21 16.51) (fields_autoplaced)
+  (sheet (at 214.63 40.64) (size 29.21 16.51) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 7f113667-692a-4f4d-b16f-621d32f3f136)
-    (property "Sheetname" "motorA" (at 214.63 41.1984 0)
+    (property "Sheetname" "motorA" (at 214.63 39.9284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "mm_motor.kicad_sch" (at 214.63 59.0046 0)
+    (property "Sheetfile" "mm_motor.kicad_sch" (at 214.63 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "C1" output (at 214.63 44.45 180)
+    (pin "C1" output (at 214.63 43.18 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cad3539b-89e7-4761-b72d-104f35e484ad)
     )
-    (pin "MB" passive (at 214.63 57.15 180)
+    (pin "MB" passive (at 214.63 55.88 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9eb498e9-6640-4132-9d27-992ef4ed6a9f)
     )
-    (pin "C2" output (at 214.63 46.99 180)
+    (pin "C2" output (at 214.63 45.72 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d48814f2-cc19-4678-be57-a6c43fc60a68)
     )
-    (pin "MA" passive (at 214.63 54.61 180)
+    (pin "MA" passive (at 214.63 53.34 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 1583a5f8-195c-4424-9e11-f08aa471fce0)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "5"))
       )
     )
@@ -373,7 +373,7 @@
       (uuid ebb9d1fd-e50d-49bd-84bf-0c86afada703)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "3"))
       )
     )
@@ -398,7 +398,7 @@
       (uuid f5daab1b-d701-4218-a31a-f843ed563f24)
     )
     (instances
-      (project "tp2"
+      (project "tp3"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44" (page "7"))
       )
     )
